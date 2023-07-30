@@ -13,7 +13,8 @@ def main(args):
     mlflow.sklearn.autolog()
 
     # read data
-    df = get_csvs_df(args.training_data)
+    #df = get_csvs_df(args.training_data)
+    df = pd.read_csv(args.training_data)
 
     # split data
     X_train, X_test, y_train, y_test = split_data(df)
