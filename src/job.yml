@@ -8,7 +8,7 @@ inputs:
   training_data: 
     type: uri_file
     #mode: download
-    path: https://mlops0130340529.blob.core.windows.net/azureml-blobstore-46b55c21-1280-4bb0-a6ec-3d3e7561d326/UI/2023-07-30_005617_UTC/diabetes-prod.csv
+    path: azureml://subscriptions/138b6571-48a3-48f6-bbd4-33abb73dcf82/resourcegroups/mlops/workspaces/MLOps/datastores/workspaceblobstore/paths/UI/2023-07-30_005617_UTC/diabetes-prod.csv
   reg_rate: 0.01
 environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu@latest
 compute: mlops-v1
