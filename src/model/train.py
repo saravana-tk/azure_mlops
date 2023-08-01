@@ -42,7 +42,7 @@ def split_data(df):
                     random_state=42)
 
     # return data
-    return X_train, X_test, y_train, y_test 
+    return X_train, X_test, y_train, y_test
 
 
 def train_model(reg_rate, X_train, X_test, y_train, y_test):
